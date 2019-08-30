@@ -36,6 +36,7 @@ def using_delete_at(array, index)
 end
 
 a = ['a', 'b', 'c']
-
+puts `a before #{a}`
+puts ""
 puts using_delete_at(a, 1)
-  
+puts `a after #{a}`
