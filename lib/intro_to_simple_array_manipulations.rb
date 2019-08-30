@@ -43,8 +43,8 @@ def using_delete(array, element)
 end
 
 def using_delete_at(array, index)
-  
-  array.delete(index)
+  element = array[index]
+  return array.delete(element)
 end
 
 a = ['a', 'b', 'c']
