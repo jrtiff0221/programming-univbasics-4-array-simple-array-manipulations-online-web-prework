@@ -30,6 +30,6 @@ def using_flatten(array)
 end
 def using_delete(array, element)
   return array.delete(element)
-authenticate_or_request_with_http_digest
+end
   
   
