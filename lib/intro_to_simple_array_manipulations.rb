@@ -34,5 +34,8 @@ end
 def using_delete_at(array, index)
   return array.delete(index)
 end
-  
+
+a = ['a', 'b', 'c']
+
+puts using_delete_at(a, 2)
   
