@@ -37,5 +37,5 @@ end
 
 a = ['a', 'b', 'c']
 
-puts using_delete_at(a, 2)
+puts using_delete_at(a, 1)
   
