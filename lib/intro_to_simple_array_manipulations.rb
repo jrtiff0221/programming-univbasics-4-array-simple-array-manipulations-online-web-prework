@@ -47,8 +47,8 @@ def using_delete_at(array, index)
   return array.delete(element)
 end
 
-a = ['a', 'b', 'c']
-puts `a before #{a}`
+akk = ['a', 'b', 'c']
+puts `a before #{akk}`
 puts ""
-puts using_delete_at(a, 1)
-puts `a after #{a}`
+puts using_delete_at(akk, 1)
+puts `a after #{akk}`
