@@ -28,5 +28,8 @@ end
 def using_flatten(array)
   return array.flatten 
 end
+def using_delete(array, element)
+  return array.delete(element)
+authenticate_or_request_with_http_digest
   
   
